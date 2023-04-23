@@ -7,6 +7,9 @@ import cors from 'cors'
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
     || 'mongodb://127.0.0.1:27017/tuiter';
 
+console.log("aaaaa", process.env.DB_CONNECTION_STRING)
+
+console.log(CONNECTION_STRING,"mongoes")
 mongoose.connect(CONNECTION_STRING);
 import mongoose from "mongoose";
 

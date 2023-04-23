@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "DB_CONNECTION_STRING=mongodb+srv://tamboliazim75:AzimTamboli123@cluster0.js9zboc.mongodb.net/?retryWrites=true&w=majority node app.js"
   },
   "repository": {
     "type": "git",
